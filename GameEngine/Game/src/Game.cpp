@@ -2,13 +2,8 @@
 
 class Game : public GameEngine::Application {
 public:
-	Game() {
-
-	}
-
-	~Game() {
-
-	}
+	Game() {}
+	~Game() {}
 };
 
 GameEngine::Application* GameEngine::CreateApplication() {
