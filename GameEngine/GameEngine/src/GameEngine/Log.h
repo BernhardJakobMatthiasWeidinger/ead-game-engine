@@ -5,7 +5,7 @@
 #include "Core.h"
 
 namespace GameEngine {
-	class Log {
+	class GE_API Log {
 	public:
 		static void Init();
 

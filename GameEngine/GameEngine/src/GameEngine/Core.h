@@ -7,5 +7,5 @@
 		#define GE_API __declspec(dllimport)
 	#endif
 #else
-	//#error GameEngine only support Windows!
+	#error GameEngine only support Windows!
 #endif 

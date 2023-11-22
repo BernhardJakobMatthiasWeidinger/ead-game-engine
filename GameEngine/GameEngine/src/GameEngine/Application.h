@@ -11,4 +11,6 @@ namespace GameEngine {
 		void Run();
 
 	};
+
+	Application* CreateApplication();
 }
