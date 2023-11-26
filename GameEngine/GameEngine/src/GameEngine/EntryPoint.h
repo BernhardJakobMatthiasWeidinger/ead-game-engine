@@ -9,7 +9,7 @@
 		GameEngine::Log::Init();
 		GE_CORE_WARN("Initialized log!");
 		int a = 5;
-		GE_INFO("hello! Var={0}", a);
+		GE_INFO("hello! Var NEW={0}", a);
 		
 		auto game = GameEngine::CreateApplication();
 		game->Run();
